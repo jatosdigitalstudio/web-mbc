@@ -1,0 +1,30 @@
+'use client'
+import Image from "next/image"
+export default function About() {
+    return (
+        <section className="lg:max-w-[90rem] mx-auto pt-[8rem] pb-[4rem]" id="tentang" >
+            <div className="flex flex-col lg:flex-row justify-center">
+                <div className="mr-12">
+                    <div className="border w-20 bg-secondary p-0.5 mb-2" />
+                    <h1 className="text-primary font-semibold leading-snug !text-4xl lg:max-w-4xl lg:!text-6xl">
+                        Tentang Kami
+                    </h1>
+                </div>
+                <div className="px-12 text-left lg:max-w-2xl">
+                    <p className="mx-auto text-sm leading-relaxed w-full text-grey ">
+                        Mitra Bhadra Consulting diprakarsai oleh para profesional di berbagai bidang.
+                        <span className="font-bold underline"> Masing-masing profesional memiliki pengalaman sebagai top executive 
+                        yang menangani beragam bisnis, jabatan publik, Presiden Direktur Bursa Efek Jakarta, CEO Unilever dan Managing Director & Country 
+                        Head Bank ING Indonesia.</span> Meskipun berasal dari latar belakang profesi yang berbeda, kami 
+                        memiliki keyakinan yang sama bahwa bisnis hanya dapat berkelanjutan jika dijalankan atas 
+                        dasar good corporate governance (GCG) dan corporate social responsibility (CSR) dalam seluruh
+                        proses bisnis. Di Mitra Bhadra Consulting, pengalaman kami bagikan untuk memberikan strategic
+                        advisory kepada perusahaan dalam mengembangkan dan mengimplementasikan strategi bisnis yang 
+                        didasari oleh pelaksanaan Good Corporate Governance yang solid serta melaksanakan CSR dalam 
+                        rangka peningkatan daya saing.
+                    </p>
+                </div>
+            </div>
+        </section>
+    )
+}
