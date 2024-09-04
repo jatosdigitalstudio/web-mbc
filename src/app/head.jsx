@@ -1,9 +1,11 @@
-export default function Head() {
+import React from 'react';
+
+export default function Head({title, description}) {
     return (
       <>
-        <title>Mitra Bhadra Consulting</title>
+        <title>{title}</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <meta name="description" content="Mitra Bhadra Consulting diprakarsai oleh para profesional di berbagai bidang" />
+        <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
       </>
     )

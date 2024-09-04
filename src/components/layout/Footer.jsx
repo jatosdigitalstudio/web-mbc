@@ -11,7 +11,7 @@ import {
     RiPhoneLine,
     RiInstagramFill
 } from "react-icons/ri"
-import Logo from '../../public/images/mbc-logo.jpg'
+import Logo from '../../../public/images/mbc-logo.jpg'
 
 export default function Footer() {
     return (

@@ -1,9 +1,22 @@
-import Hero from "@/components/Hero"
-import About from "@/components/About"
-import Services from "@/components/Services"
-import Teams from "@/components/Teams"
-import Clients from "@/components/Clients"
-export default async function Root() {
+'use client'
+import { useEffect,useState } from 'react';
+import Loading from './loading';
+import Hero from "@/components/home/Hero"
+import About from "@/components/home/About"
+import Services from "@/components/home/Services"
+import Teams from "@/components/home/Teams"
+import Clients from "@/components/home/Clients"
+
+export default function Root() {
+  const [loading,setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
+  if (loading) return <Loading />
   return (
     <div className="container">
       <Hero />

@@ -3,11 +3,41 @@ import * as React from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link"
 import Image from "next/image"
-import Logo from '../../public/images/mbc-logo-tp.png'
+import Logo from '../../../public/images/mbc-logo-tp.png'
 import {RiFacebookBoxFill, RiInstagramFill, RiYoutubeFill, RiLinkedinBoxFill} from 'react-icons/ri'
+import { MENU } from "@/constant/routes";
 
 export default function Header() {
-  const pathname = usePathname();
+  const path = usePathname();
+
+  const Navbarlist =() => {
+      return MENU.map((link, i) => (
+        <li key={i}>
+          {
+            link.sub ? (
+              <details>
+                <summary className="flex text-black text-[16px] font-[400] py-3 gap-4 rounded-sm cursor-pointer items-center hover:bg-primary hover:text-white hover:rounded-sm">
+                    {link.name}
+                </summary>
+                <ul className="w-60 rounded-sm bg-white backdrop-filter backdrop-blur-lg bg-opacity-85">
+                  {link.sub.map((s, i) => (
+                    <li key={i} >
+                      <Link href={s.path} key={i} className={`${s.path === path ? "bg-primary text-white rounded-sm" : ""} flex rounded-sm text-black text-[14px] font-[400] py-2 gap-4 cursor-pointer items-center hover:bg-primary hover:text-white hover:rounded-sm`}>
+                        {s.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ) : (
+              <Link href={link.path} key={i} className={`${link.path === path ? "bg-primary text-white rounded-sm" : ""} flex rounded-sm text-black text-[16px] font-[400] py-3 gap-4 cursor-pointer items-center hover:bg-primary hover:text-white hover:rounded-sm`}>
+                {link.name}
+              </Link>
+            )
+          }
+        </li>
+    )) 
+  }
 
   return (
       <nav className="navbar sticky bg-white backdrop-filter backdrop-blur-lg bg-opacity-45 px-4 h-[80px] lg:px-20 3xl:px-0 z-30">
@@ -18,11 +48,12 @@ export default function Header() {
         </div>
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1 scroll-smooth">
-            <li><Link href={'/'} >Home</Link></li>
+            <Navbarlist />
+            {/* <li><Link href={'/'} >Home</Link></li>
             <li><Link href={'/'} >About</Link></li>
             <li><Link href={'/'} >Services</Link></li>
             <li><Link href={'/'} >Teams</Link></li>
-            <li><Link href={'/'} >Contact</Link></li>
+            <li><Link href={'/'} >Contact</Link></li> */}
           </ul>
         </div>
         <div className="navbar-end gap-4">
