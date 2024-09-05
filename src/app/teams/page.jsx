@@ -52,13 +52,12 @@ export default function TeamsPage() {
                                 2009 beliau terlibat aktif dalam kegiatan financial inclusion di Indonesia.
                             </p>
                             <ul className="list-disc text-primary px-4 text-sm">
-                                <li><span className="text-gray-700">Komisaris Utama PT Chubb Insurance Indonesia (2016-Present)</span></li>
-                                <li><span className="text-gray-700">Komisaris Panasonic Manufacturing Indonesia (2008-Juni 2022)</span></li>
-                                <li><span className="text-gray-700">Ketua Komite Nasional Kebijakan Governance (1999 – 2019)</span></li>
-                                <li><span className="text-gray-700">Anggota Komite Etik Otoritas Jasa Keuangan (2013 – 2016)</span></li>
-                                <li><span className="text-gray-700">Wakil Direktur Utama Panasonic Manufacturing Indonesia (2002 – 2009)</span></li>
-                                <li><span className="text-gray-700">Direktur Utrama Bursa Efek Jakarta (1999 – 2002)</span></li>
-                                <li><span className="text-gray-700">Direktur Bursa Efek Jakarta (1991 - 1999)</span></li>
+                                <li><span className="text-gray-700">Komisaris Independen PT Bank Tabungan Pensiunan Nasional Tbk (2009-Present)</span></li>
+                                <li><span className="text-gray-700">Komisaris Utama PT Sriboga Marugame Indonesia</span></li>
+                                <li><span className="text-gray-700">Presiden Direktur PT BT Sekurities Indonesia (1996-1999)</span></li>
+                                <li><span className="text-gray-700">Komisaris PT Sari Melati Kencana (2011)</span></li>
+                                <li><span className="text-gray-700">Anggota Komite Audit PT BAT Indonesia (2008)</span></li>
+                                <li><span className="text-gray-700">Presiden Direktur PT ING Indonesia Bank (2000-2004)</span></li>
                             </ul>
                         </div>
                         <div className="flex flex-col w-full p-6 gap-6">
@@ -70,13 +69,13 @@ export default function TeamsPage() {
                                 development serta membawa perusahaan melakukan Initial Public Offering (IPO).
                             </p>
                             <ul className="list-disc text-primary px-4 text-sm">
-                                <li><span className="text-gray-700">Komisaris Utama PT Chubb Insurance Indonesia (2016-Present)</span></li>
-                                <li><span className="text-gray-700">Komisaris Panasonic Manufacturing Indonesia (2008-Juni 2022)</span></li>
-                                <li><span className="text-gray-700">Ketua Komite Nasional Kebijakan Governance (1999 – 2019)</span></li>
-                                <li><span className="text-gray-700">Anggota Komite Etik Otoritas Jasa Keuangan (2013 – 2016)</span></li>
-                                <li><span className="text-gray-700">Wakil Direktur Utama Panasonic Manufacturing Indonesia (2002 – 2009)</span></li>
-                                <li><span className="text-gray-700">Direktur Utrama Bursa Efek Jakarta (1999 – 2002)</span></li>
-                                <li><span className="text-gray-700">Direktur Bursa Efek Jakarta (1991 - 1999)</span></li>
+                                <li><span className="text-gray-700">Senior Partner PT Mitra Bhadra Consulting (2020-Present)</span></li>
+                                <li><span className="text-gray-700">Direktur PT UI Corpora (2019-Present)</span></li>
+                                <li><span className="text-gray-700">Chief Corporate Support Directors PT ABM Investama Tbk (2009-2019)</span></li>
+                                <li><span className="text-gray-700">Country Manager PT D&B (Dun & Bradstreet) Indonesia (2007-2009)</span></li>
+                                <li><span className="text-gray-700">Direktur Operasional AXA Mandiri, joint venture AXA France and Bank Mandiri (2004-2007)</span></li>
+                                <li><span className="text-gray-700">Direktur Keuangan John Hancoock, US Company (2000-2007)</span></li>
+                                <li><span className="text-gray-700">Property and Development PT Bangun Tjipta Pratama, Group of Bangun Tjipta Group (1992-1999)</span></li>
                             </ul>
                         </div>
                     </div>
@@ -105,13 +104,18 @@ export default function TeamsPage() {
                                 swasta lainnya.
                             </p>
                             <ul className="list-disc text-primary px-4 text-sm">
-                                <li><span className="text-gray-700">Komisaris Utama PT Chubb Insurance Indonesia (2016-Present)</span></li>
-                                <li><span className="text-gray-700">Komisaris Panasonic Manufacturing Indonesia (2008-Juni 2022)</span></li>
-                                <li><span className="text-gray-700">Ketua Komite Nasional Kebijakan Governance (1999 – 2019)</span></li>
-                                <li><span className="text-gray-700">Anggota Komite Etik Otoritas Jasa Keuangan (2013 – 2016)</span></li>
-                                <li><span className="text-gray-700">Wakil Direktur Utama Panasonic Manufacturing Indonesia (2002 – 2009)</span></li>
-                                <li><span className="text-gray-700">Direktur Utrama Bursa Efek Jakarta (1999 – 2002)</span></li>
-                                <li><span className="text-gray-700">Direktur Bursa Efek Jakarta (1991 - 1999)</span></li>
+                                <li><span className="text-gray-700">BPJS Ketenagakerjaan (2015)</span></li>
+                                <li><span className="text-gray-700">BPJS Ketenagakerjaan (2016)</span></li>
+                                <li><span className="text-gray-700">PT Jakarta International Container Terminal (2018)</span></li>
+                                <li><span className="text-gray-700">PT Humpus Intermoda Transportasi (2018)</span></li>
+                                <li><span className="text-gray-700">PT Sarana Multigriya Finansial (2018)</span></li>
+                                <li><span className="text-gray-700">PT Sarana Multigriya Finansial (2019)</span></li>
+                                <li><span className="text-gray-700">Lembaga Pembiayaan Ekspor Impor Indonesia (2019)</span></li>
+                                <li><span className="text-gray-700">Jakarta Propertindo Group (2020)</span></li>
+                                <li><span className="text-gray-700">Jakarta Propertindo Group (2019)</span></li>
+                                <li><span className="text-gray-700">Lembaga Penjamin Simpanan (2022)</span></li>
+                                <li><span className="text-gray-700">PT Pupuk Kalimantan Timur (2022)</span></li>
+                                <li><span className="text-gray-700">IFG Life (2022)</span></li>
                             </ul>
                         </div>
                         <div className="flex flex-col w-full p-6 gap-6">
@@ -125,13 +129,17 @@ export default function TeamsPage() {
                                 Edoh memiliki sertifikasi Lead Auditor ISO 37001
                             </p>
                             <ul className="list-disc text-primary px-4 text-sm">
-                                <li><span className="text-gray-700">Komisaris Utama PT Chubb Insurance Indonesia (2016-Present)</span></li>
-                                <li><span className="text-gray-700">Komisaris Panasonic Manufacturing Indonesia (2008-Juni 2022)</span></li>
-                                <li><span className="text-gray-700">Ketua Komite Nasional Kebijakan Governance (1999 – 2019)</span></li>
-                                <li><span className="text-gray-700">Anggota Komite Etik Otoritas Jasa Keuangan (2013 – 2016)</span></li>
-                                <li><span className="text-gray-700">Wakil Direktur Utama Panasonic Manufacturing Indonesia (2002 – 2009)</span></li>
-                                <li><span className="text-gray-700">Direktur Utrama Bursa Efek Jakarta (1999 – 2002)</span></li>
-                                <li><span className="text-gray-700">Direktur Bursa Efek Jakarta (1991 - 1999)</span></li>
+                                <li><span className="text-gray-700">BPJS Ketenagakerjaan (2015)</span></li>
+                                <li><span className="text-gray-700">BPJS Ketenagakerjaan (2016)</span></li>
+                                <li><span className="text-gray-700">PT Jakarta International Container Terminal (2018)</span></li>
+                                <li><span className="text-gray-700">PT Humpus Intermoda Transportasi (2018)</span></li>
+                                <li><span className="text-gray-700">PT Sarana Multigriya Finansial (2018)</span></li>
+                                <li><span className="text-gray-700">PT Sarana Multigriya Finansial (2019)</span></li>
+                                <li><span className="text-gray-700">Jakarta Propertindo Group (2020)</span></li>
+                                <li><span className="text-gray-700">Jakarta Propertindo Group (2019)</span></li>
+                                <li><span className="text-gray-700">Lembaga Penjamin Simpanan (2022)</span></li>
+                                <li><span className="text-gray-700">PT Pupuk Kalimantan Timur (2022)</span></li>
+                                <li><span className="text-gray-700">IFG Life (2022)</span></li>
                             </ul>
                         </div>
                     </div>

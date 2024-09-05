@@ -2,8 +2,6 @@
 import { useState,useEffect } from "react"
 import Loading from "../loading";
 
-AboutPage.title = 'About | Mitra Bhadra Consulting';
- 
 export default function AboutPage() {
     const [loading,setLoading] = useState(true)
     useEffect(() => {

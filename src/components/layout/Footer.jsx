@@ -63,7 +63,7 @@ export default function Footer() {
                         <div className="text-left">
                             <p className="text-lg font-medium text-white">Menu</p>
 
-                            <ul className="mt-4 md:mt-8 space-y-4 text-sm">
+                            <ul className="mt-4 md:mt-8 space-y-4 text-md">
                                 <li>
                                     <Link className="text-gray-100 transition hover:text-gray-100/75" href="/#tentang">
                                         About Us
@@ -144,8 +144,8 @@ export default function Footer() {
                     </div>
                 </div> */}
             </div>
-            <div className="bg-white backdrop-filter backdrop-blur-lg bg-opacity-45 py-4">
-                    <div className="text-center ">
+            <div className="bg-gray-500 py-3">
+                    <div className="text-center">
                         <p className="mt-2 text-sm text-white sm:order-first sm:mt-0">Copyright &copy; 2024 mbconsulting.id</p>
                     </div>
                 </div>
