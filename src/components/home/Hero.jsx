@@ -4,8 +4,8 @@ import Image from "next/image"
 
 export default function Hero() {
     return (
-        <section className="wrapper bg-[url('/images/mbc-heroimg.jpg')] bg-cover mt-[-5rem]" id="beranda" >
-            <div className="flex flex-col h-[100vh] justify-center items-end">
+        <section className="wrapper bg-[url('/images/mbc-heroimg.jpg')] bg-cover mt-[-5rem] " id="beranda" >
+            <div className="flex flex-col h-[100vh] bg-primary/45 lg:bg-primary/5 justify-center items-end">
                 <div className="px-6 text-left mr-[4em] mt-[-4em] md:mt-[-2em]">
                     <h6 className="mx-auto mt-6 uppercase w-full text-white lg:max-w-3xl">
                         achieve business sustainablity by

@@ -31,7 +31,7 @@ export default  function RootLayout({children}) {
         {loading ? <Loading/> : (
           <>
             <Header />
-            {children}
+              {children}
             <Footer />
           </>
         )}

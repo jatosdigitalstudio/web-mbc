@@ -25,7 +25,7 @@ export default function Footer() {
                             </Link>
                         </div>
 
-                        <p className="mt-6 max-w-md text-left leading-relaxed text-gray-100 text-[10px] sm:max-w-xs ">
+                        <p className="mt-6 max-w-md text-left leading-relaxed text-gray-100 text-[14px] sm:max-w-xs ">
                             Di Mitra Bhadra Consulting, kami ingin berbagi pengalaman kami kepada Perusahaan dalam
                             menjalankan dan mengembangkan bisnis dengan didasari dengan Prinsip GCG yang solid serta
                             dapat menciptakan keuntungan dan nilai dalam rangka peningkatan daya saing 
@@ -144,7 +144,7 @@ export default function Footer() {
                     </div>
                 </div> */}
             </div>
-            <div className="bg-gray-500 py-3">
+            <div className="bg-black py-3">
                     <div className="text-center">
                         <p className="mt-2 text-sm text-white sm:order-first sm:mt-0">Copyright &copy; 2024 mbconsulting.id</p>
                     </div>

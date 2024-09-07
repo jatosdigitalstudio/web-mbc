@@ -13,7 +13,7 @@ export default function TeamsPage() {
 
     if (loading) return <Loading />
     return (
-        <section className="lg:max-w-[90rem] mx-auto py-[4rem]" >
+        <section className="lg:max-w-[90rem] mx-auto py-[4rem] px-8" >
             <div className="flex flex-col mx-auto justify-center items-center">
                 <div className="mb-12">
                     <div className="border rounded-md w-20 bg-secondary p-0.5 mb-4" />
@@ -23,7 +23,7 @@ export default function TeamsPage() {
                         </h1>
                     </div>
                 </div>
-                <div className="px-12 text-left">
+                <div className="lg:px-12 text-left">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                         <div className="flex flex-col w-full p-6 gap-6">
                             <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
@@ -90,7 +90,7 @@ export default function TeamsPage() {
                         </h1>
                     </div>
                 </div>
-                <div className="px-12 text-left">
+                <div className="lg:px-12 text-left">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         <div className="flex flex-col w-full p-6 gap-6">
                             <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />

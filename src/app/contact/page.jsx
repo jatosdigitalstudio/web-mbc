@@ -12,17 +12,17 @@ export default function ContactPage() {
     }, []);
 
     if (loading) return <Loading />
-    return (
-        <section className="pt-[3rem] pb-[8rem]">
+    return ( 
+        <section className="pt-[3rem] pb-[8rem] px-8">
             <div className="flex flex-col lg:max-w-[78rem] mx-auto justify-center items-start">
-                <div className="mb-[3rem] px-12">
+                <div className="mb-[3rem] lg:px-12">
                     <div className="border rounded-md w-20 bg-secondary p-0.5 mb-4" />
                     <h1 className="bg-primary rounded-md px-8 py-4 text-white font-semibold leading-snug !text-4xl lg:max-w-4xl">
                         Contact Us
                     </h1>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 px-12">
-                    <form className="bg-primary w-[36rem] px-10 py-8 rounded-md">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:px-12">
+                    <form className="bg-primary lg:w-[36rem] px-10 py-8 rounded-md">
                         <div className="mb-4">
                             <label className="mb-2 text-left text-white ">Name</label>
                             <input
@@ -58,7 +58,7 @@ export default function ContactPage() {
 
                         <button className="w-full bg-secondary text-white p-2 rounded-md" >Send</button>
                     </form>
-                    <div className="flex flex-col gap-6 ml-8">
+                    <div className="flex flex-col gap-6 lg:ml-8">
                         <h4 className="font-bold text-gray-700 text-2xl mb-2">More Information</h4>
                         <div className="flex flex-row gap-4">
                             <HiMiniBuildingOffice size={28} className="text-primary"/>

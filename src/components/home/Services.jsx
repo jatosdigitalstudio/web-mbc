@@ -1,6 +1,5 @@
 'use client'
-import Image from "next/image"
-import { HiMiniBuildingLibrary } from "react-icons/hi2";
+import Link from "next/link";
 import { SERVICE } from "@/constant/data";
 
 export default function Services() {
@@ -9,11 +8,15 @@ export default function Services() {
             <div className="grid grid-cols-1 lg:grid-cols-4 text-white gap-0">
                 {
                     SERVICE.map((data, idx) => (
-                        <div key={idx} className={`flex flex-col gap-6 justify-center items-center px-12 py-16 ${data.style}`}>
+                        <Link 
+                            href={data.path} 
+                            key={idx} 
+                            className={`flex flex-col gap-6 justify-center items-center px-8 lg:px-12 py-16 hover: ${data.style}`}
+                        >
                             {data.icons}
                             <h1 className="text-center font-bold text-2xl mb-4">{data.title}</h1>
                             <p className="text-justify text-md">{data.text}</p>
-                        </div>
+                        </Link>
                     ))
                 }
             </div>

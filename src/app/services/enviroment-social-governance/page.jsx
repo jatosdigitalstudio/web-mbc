@@ -1,11 +1,12 @@
 'use client'
 import { useState,useEffect } from "react"
 import Loading from "@/app/loading";
-import CSRPage from "@/components/services/CSRPage";
+import ESGPage from "@/components/services/ESGPage";
 import ServiceCTA from "@/components/serviceCTA";
 
-export default function CSR() {
+export default function GCG() {
     const [loading,setLoading] = useState(true)
+    
     useEffect(() => {
         setTimeout(() => {
         setLoading(false);
@@ -15,8 +16,8 @@ export default function CSR() {
     if (loading) return <Loading />
     return (
         <>
-        <CSRPage />
-        <ServiceCTA/>
-        </>
+       <ESGPage />
+       <ServiceCTA/>
+       </>
     )
 }

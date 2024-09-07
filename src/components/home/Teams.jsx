@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Teams() {
     return (
-        <section className="lg:max-w-[90rem] mx-auto pb-[8rem]" id="tentang" >
+        <section className="lg:max-w-[90rem] mx-auto pb-[8rem] px-6" id="tentang" >
             <div className="flex flex-col mx-auto justify-center items-center">
                 <div className="mb-12">
                     <div className="border rounded-md w-20 bg-secondary p-0.5 mb-4" />
@@ -13,7 +13,7 @@ export default function Teams() {
                         </h1>
                     </div>
                 </div>
-                <div className="px-12 text-left">
+                <div className="lg:px-12 text-left">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                         <div className="flex flex-col w-full p-6 gap-6">
                             <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
