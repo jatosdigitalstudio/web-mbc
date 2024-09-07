@@ -4,7 +4,7 @@ import { SERVICE } from "@/constant/data";
 
 export default function Services() {
     return (
-        <section className="mx-auto py-[8rem]" id="layanan">
+        <section className="mx-auto py-[8rem]" id="service">
             <div className="grid grid-cols-1 lg:grid-cols-4 text-white gap-0">
                 {
                     SERVICE.map((data, idx) => (

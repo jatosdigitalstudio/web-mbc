@@ -1,7 +1,7 @@
 'use client'
 export default function About() {
     return (
-        <section className="lg:max-w-[90rem] mx-auto pt-[8rem] pb-[4rem] px-6" id="tentang" >
+        <section className="lg:max-w-[90rem] mx-auto pt-[8rem] pb-[2rem] px-6" id="about" >
             <div className="flex flex-col lg:flex-row justify-center">
                 <div className="lg:mr-12 mb-8">
                     <div className="border rounded-md w-20 bg-secondary p-0.5 mb-4" />
@@ -12,7 +12,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="lg:px-12 text-left lg:max-w-2xl">
-                    <p className="mx-auto text-sm leading-relaxed w-full text-grey ">
+                    <p className="mx-auto text-md leading-relaxed w-full text-grey ">
                         Mitra Bhadra Consulting diprakarsai oleh para profesional di berbagai bidang.
                         <span className="font-bold underline"> Masing-masing profesional memiliki pengalaman sebagai top executive 
                         yang menangani beragam bisnis, jabatan publik, Presiden Direktur Bursa Efek Jakarta, CEO Unilever dan Managing Director & Country 

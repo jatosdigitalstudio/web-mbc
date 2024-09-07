@@ -65,24 +65,24 @@ export default function Footer() {
 
                             <ul className="mt-4 md:mt-8 space-y-4 text-md">
                                 <li>
-                                    <Link className="text-gray-100 transition hover:text-gray-100/75" href="/#tentang">
+                                    <Link className="text-gray-100 transition hover:text-gray-100/75" href="/#about">
                                         About Us
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link className="text-gray-100 transition hover:text-gray-100/75" href="/#program">
+                                    <Link className="text-gray-100 transition hover:text-gray-100/75" href="/#service">
                                         Services
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link className="text-gray-100 transition hover:text-gray-100/75" href="/#facility">
+                                    <Link className="text-gray-100 transition hover:text-gray-100/75" href="/teams">
                                         Teams
                                     </Link>
                                 </li>
                                 <li>
                                     <Link 
                                     className="text-gray-100 transition hover:text-gray-100/75" 
-                                        href="https://docs.google.com/forms/d/e/1FAIpQLSc1DMgDQ5U0mkW_-p1F47imuryzPDkW9M7vhLK02N8UXb3frQ/closedform">
+                                        href="/contact">
                                         Contact Us
                                     </Link>
                                 </li>

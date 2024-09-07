@@ -5,12 +5,12 @@ import Image from "next/image"
 export default function Hero() {
     return (
         <section className="wrapper bg-[url('/images/mbc-heroimg.jpg')] bg-cover mt-[-5rem] " id="beranda" >
-            <div className="flex flex-col h-[100vh] bg-primary/45 lg:bg-primary/5 justify-center items-end">
-                <div className="px-6 text-left mr-[4em] mt-[-4em] md:mt-[-2em]">
+            <div className="flex flex-col h-[100vh] bg-primary/55 lg:bg-primary/5 justify-center items-end">
+                <div className="px-6 text-left mr-10 md:mr-[4em] md:mt-[-4em] md:mt-[-2em]">
                     <h6 className="mx-auto mt-6 uppercase w-full text-white lg:max-w-3xl">
                         achieve business sustainablity by
                     </h6>
-                    <h1 className="text-white font-extrabold mt-2 mb-6 w-full !leading-snug !text-2xl lg:!text-[3em]">
+                    <h1 className="text-white font-extrabold mt-2 mb-6 w-full !leading-snug !text-5xl lg:!text-[3em]">
                         Creating <br/> Shared Value
                     </h1>
                     <button 
