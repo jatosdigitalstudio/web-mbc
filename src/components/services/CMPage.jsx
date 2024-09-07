@@ -54,7 +54,7 @@ export default function CMPage() {
                         </div>
                         <div className="flex flex-row gap-4">
                             <BsCheckCircle size={30} className="text-secondary"/>
-                            <p className="text-lg"> "At The Market" Offerings</p>
+                            <p className="text-lg"> <q>At The Market</q> Offerings</p>
                         </div>
                         <div className="flex flex-row gap-4">
                             <BsCheckCircle size={30} className="text-secondary"/>
