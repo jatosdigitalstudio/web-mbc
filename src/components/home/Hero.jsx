@@ -1,6 +1,5 @@
 'use client'
 import Link from "next/link"
-import Image from "next/image"
 
 export default function Hero() {
     return (
@@ -20,9 +19,9 @@ export default function Hero() {
                             class="relative z-10"
                             onClick={(e) => {
                                 setTimeout(() => {
-                                document.getElementById("tentang") &&
+                                document.getElementById("about") &&
                                     document
-                                    .getElementById("tentang")
+                                    .getElementById("about")
                                     .scrollIntoView({ behavior: "smooth"});
                                 }, 500)
                                 }}
