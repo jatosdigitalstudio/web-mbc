@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link"
 import Image from "next/image"
 import Logo from '../../../public/images/mbc-logo-tp.png'
-import {RiFacebookBoxFill, RiInstagramFill, RiYoutubeFill, RiLinkedinBoxFill} from 'react-icons/ri'
+import {RiFacebookBoxFill, RiInstagramFill, RiLinkedinBoxFill} from 'react-icons/ri'
 import { MENU } from "@/constant/routes";
 
 export default function Header() {
@@ -54,34 +54,26 @@ export default function Header() {
         <div className="navbar-end gap-4">
             <ul className="flex justify-start gap-4">
                 <li>
-                    <Link href="/" target="_blank">
+                    <Link href="https://www.linkedin.com/in/pt-mitra-bhadra-consulting-60055793/?originalSubdomain=id" target="_blank">
                         <RiLinkedinBoxFill
                             fontSize={22}
-                            className="text-primary transition hover:text-black"
+                            className="text-black transition hover:text-primary"
                         />
                     </Link>
                 </li>
                 <li>
-                    <Link href="/" target="_blank">
+                    <Link href="https://www.facebook.com/mitrabhadraconsulting/" target="_blank">
                         <RiFacebookBoxFill
                             fontSize={22}
-                            className="text-primary transition hover:text-black"
+                            className="text-black transition hover:text-primary"
                         />
                     </Link>
                 </li>
                 <li>
-                    <Link href="/" target="_blank">
-                        <RiYoutubeFill
-                            fontSize={22}
-                            className="text-primary transition hover:text-black"
-                        />
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/" target="_blank">
+                    <Link href="https://www.instagram.com/mitra_bhadra/?hl=id" target="_blank">
                         <RiInstagramFill
                             fontSize={22}
-                            className="text-primary transition hover:text-black"
+                            className="text-black transition hover:text-primary"
                         />
                     </Link>
                 </li>

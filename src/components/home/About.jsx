@@ -11,7 +11,7 @@ export default function About() {
                         </h1>
                     </div>
                 </div>
-                <div className="lg:px-12 text-left lg:max-w-2xl">
+                <div className="lg:px-12 text-justify lg:max-w-2xl">
                     <p className="mx-auto text-md leading-relaxed w-full text-grey ">
                         Mitra Bhadra Consulting diprakarsai oleh para profesional di berbagai bidang.
                         <span className="font-bold underline"> Masing-masing profesional memiliki pengalaman sebagai top executive 

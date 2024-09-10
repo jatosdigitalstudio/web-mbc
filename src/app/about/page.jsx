@@ -21,7 +21,7 @@ export default function AboutPage() {
                         Tentang Kami
                     </h1>
                 </div>
-                <div className="px-12 text-left lg:max-w-2xl">
+                <div className="px-12 text-justify lg:max-w-2xl">
                     <p className="mx-auto text-sm leading-relaxed w-full text-grey ">
                         Mitra Bhadra Consulting diprakarsai oleh para profesional di berbagai bidang.
                         <span className="font-bold underline"> Masing-masing profesional memiliki pengalaman sebagai top executive 
@@ -50,7 +50,7 @@ export default function AboutPage() {
                             Vision
                         </h1>
                     </div>
-                    <div className="px-6 text-left">
+                    <div className="px-6 text-justify">
                         <p className="mx-auto text-sm leading-relaxed w-full text-grey ">
                             Menjadi konsultan multidisiplin profesional pilihan yang memberikan solusi bisnis 
                             melalui tinjauan bisnis secara menyeluruh yang berpedoman pada good governance dan 
@@ -65,7 +65,7 @@ export default function AboutPage() {
                             Mision
                         </h1>
                     </div>
-                    <div className="px-6 text-left">
+                    <div className="px-6 text-justify">
                         <ul className="list-decimal text-sm gap-4">
                             <li>Didukung dengan pengalaman yang panjang, integritas dan profesionalisme, kami mengungguli pesaing dalam menjawab kebutuhan klien dengan pemahaman yang lebih baik</li>
                             <li>Bekerja dengan komitmen untuk menyeimbangkan pengembangan prinsip GCG dan CSR (Profit, People, Planet) dalam seluruh kegiatan dan menjamin keberlanjutan jangka panjang.</li>
@@ -82,7 +82,7 @@ export default function AboutPage() {
                             Value
                         </h1>
                     </div>
-                    <div className="px-6 text-left">
+                    <div className="px-6 text-justify">
                         <ul className="list-decimal text-sm gap-4">
                             <li>Memahami kebutuhan dan kondisi klien pada setiap layanan penyusunan panduan dan layanan strategi bisnis serta dukungan atas implementasi rencana bisnis</li>
                             <li>Berkomunikasi secara terbuka dan jujur kepada klien</li>

@@ -18,7 +18,7 @@ export default function Teams() {
                         <div className="flex flex-col w-full p-6 gap-6">
                             <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
                             <h1 className="font-bold text-xl">Dr. Mas Achmad Daniri, MEc</h1>
-                            <p className="text-gray-600 text-sm"> Mas Achmad Daniri menjabat sebagai Ketua Komite Nasional Kebijakan Governance (KNKG).
+                            <p className="text-gray-600 text-justify text-sm"> Mas Achmad Daniri menjabat sebagai Ketua Komite Nasional Kebijakan Governance (KNKG).
                                 Beliau ahli di bidang pasar modal (capital market), industri manufaktur, corporate governance
                                 dan corporate social responsibility dengan pengalaman lebih dari 30 tahun. Beliau pendiri dan
                                 Senior Advisor PT Mitra Bhadra Consulting, serta telah menulis beberapa buku terkait penerapan
@@ -28,7 +28,7 @@ export default function Teams() {
                         <div className="flex flex-col w-full p-6 gap-6">
                             <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
                             <h1 className="font-bold text-xl">Irwan M. Habsjah, MA</h1>
-                            <p className="text-gray-600 text-sm">Memiliki kompetensi di bidang perbankan, pasar modal, dan corporate governance sebagai hasil
+                            <p className="text-gray-600 text-justify text-sm">Memiliki kompetensi di bidang perbankan, pasar modal, dan corporate governance sebagai hasil
                                 dari pengalamannya selama lebih dari 30 tahun pada sektor perbankan korporasi. Sejak tahun
                                 2009 beliau terlibat aktif dalam kegiatan financial inclusion di Indonesia.
                             </p>
@@ -36,7 +36,7 @@ export default function Teams() {
                         <div className="flex flex-col w-full p-6 gap-6">
                             <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
                             <h1 className="font-bold text-xl">Syahnan Poerba, S.E., MEc</h1>
-                            <p className="text-gray-600 text-sm">Memiliki pengalaman sebagai Direktur selama 30 tahun di perusahaan jasa keuangan maupun
+                            <p className="text-gray-600 text-justify text-sm">Memiliki pengalaman sebagai Direktur selama 30 tahun di perusahaan jasa keuangan maupun
                                 non keuangan. Praktisi dalam penerapan sukses Good Governance, Enterprise Risk Management,
                                 Corporate Social Responsibility didukung dengan pengalaman lainnya dalam organization
                                 development serta membawa perusahaan melakukan Initial Public Offering (IPO).

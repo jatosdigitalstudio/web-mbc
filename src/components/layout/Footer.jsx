@@ -3,14 +3,14 @@ import Link from "next/link"
 import Image from "next/image"
 import React from "react"
 import {
-    RiFacebookCircleFill,
-    RiYoutubeFill,
-    RiTiktokFill,
     RiMapPinLine,
     RiMessage2Line,
     RiPhoneLine,
-    RiInstagramFill
+    RiInstagramFill,
+    RiFacebookBoxFill,
+    RiLinkedinBoxFill
 } from "react-icons/ri"
+
 import Logo from '../../../public/images/mbc-logo.jpg'
 
 export default function Footer() {
@@ -21,35 +21,30 @@ export default function Footer() {
                     <div>
                         <div className="flex justify-start text-left ">
                             <Link href={"/"} className="bg-white px-4 py-2 rounded-sm">
-                                <Image src={Logo} width={140}  height={100} alt="Logo INA" />
+                                <Image src={Logo} width={200}  height={100} alt="Logo INA" />
                             </Link>
                         </div>
 
-                        <p className="mt-6 max-w-md text-left leading-relaxed text-gray-100 text-[14px] sm:max-w-xs ">
-                            Di Mitra Bhadra Consulting, kami ingin berbagi pengalaman kami kepada Perusahaan dalam
-                            menjalankan dan mengembangkan bisnis dengan didasari dengan Prinsip GCG yang solid serta
-                            dapat menciptakan keuntungan dan nilai dalam rangka peningkatan daya saing 
-                        </p>
 
-                        <ul className="mt-4 md:mt-6 flex justify-start gap-4 md:gap-6">
+                        <ul className="mt-4 md:mt-6 flex justify-start gap-4">
                             <li>
-                                <Link href="https://www.facebook.com/profile.php?id=100090210174530&mibextid=ZbWKwL">
-                                    <RiFacebookCircleFill
+                                <Link href="https://www.linkedin.com/in/pt-mitra-bhadra-consulting-60055793/?originalSubdomain=id">
+                                    <RiLinkedinBoxFill
                                         fontSize={26}
                                         className="text-white transition hover:text-white/75"
                                     />
                                 </Link>
                             </li>
                             <li>
-                                <Link href="https://www.youtube.com/channel/UClXAuxKJq7L8z5X11bpSQLA">
-                                    <RiYoutubeFill
+                                <Link href="https://www.facebook.com/mitrabhadraconsulting/">
+                                    <RiFacebookBoxFill
                                         fontSize={26}
                                         className="text-white transition hover:text-white/75"
                                     />
                                 </Link>
                             </li>
                             <li>
-                                <Link href="https://www.instagram.com/lpkindonesianippon/">
+                                <Link href="https://www.instagram.com/mitra_bhadra/?hl=id">
                                     <RiInstagramFill
                                         fontSize={26}
                                         className="text-white transition hover:text-white/75"
@@ -91,7 +86,7 @@ export default function Footer() {
                     </div>
 
                     <div className="text-left">
-                            <p className="text-lg font-medium text-white">Contact Us</p>
+                            <p className="text-lg font-medium text-white">More Information</p>
 
                             <ul className="mt-4 md:mt-8 space-y-4 text-sm">
                                 <li>
@@ -101,17 +96,7 @@ export default function Footer() {
                                     >
                                         <RiMessage2Line fontSize={18} className="text-gray-100" />
 
-                                        <span className="flex-1 text-gray-100">general@mbconsulting.id</span>
-                                    </Link>
-                                </li>
-
-                                <li>
-                                    <Link
-                                        className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                                        href="/"
-                                    >
-                                        <RiPhoneLine fontSize={18} className="text-gray-100" />
-                                        <span className="flex-1 text-gray-100">021 27531532</span>
+                                        <span className="flex-1 text-gray-100">general@mitrabhadraconsulting.com</span>
                                     </Link>
                                 </li>
                                 <li>
@@ -120,7 +105,7 @@ export default function Footer() {
                                         href="/"
                                     >
                                         <RiPhoneLine fontSize={18} className="text-gray-100" />
-                                        <span className="flex-1 text-gray-100">0878 8015 8570</span>
+                                        <span className="flex-1 text-gray-100">0821-1077-8860</span>
                                     </Link>
                                 </li>
 

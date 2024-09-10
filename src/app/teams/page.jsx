@@ -23,7 +23,7 @@ export default function TeamsPage() {
                         </h1>
                     </div>
                 </div>
-                <div className="lg:px-12 text-left">
+                <div className="lg:px-12 text-justify">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                         <div className="flex flex-col w-full p-6 gap-6">
                             <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
@@ -90,7 +90,7 @@ export default function TeamsPage() {
                         </h1>
                     </div>
                 </div>
-                <div className="lg:px-12 text-left">
+                <div className="lg:px-12 text-justify">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         <div className="flex flex-col w-full p-6 gap-6">
                             <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
