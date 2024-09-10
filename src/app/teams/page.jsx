@@ -26,7 +26,7 @@ export default function TeamsPage() {
                 <div className="lg:px-12 text-justify">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                         <div className="flex flex-col w-full p-6 gap-6">
-                            <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
+                            <Image src="/images/team-1.png" width={200} height={200} alt="Mas Achmad Daniri" />
                             <h1 className="font-bold text-xl">Dr. Mas Achmad Daniri, MEc</h1>
                             <p className="text-gray-600 text-sm"> Mas Achmad Daniri menjabat sebagai Ketua Komite Nasional Kebijakan Governance (KNKG).
                                 Beliau ahli di bidang pasar modal (capital market), industri manufaktur, corporate governance
@@ -45,7 +45,7 @@ export default function TeamsPage() {
                             </ul>
                         </div>
                         <div className="flex flex-col w-full p-6 gap-6">
-                            <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
+                            <Image src="/images/team-2.png" width={200} height={200} alt="Mas Achmad Daniri" />
                             <h1 className="font-bold text-xl">Irwan M. Habsjah, MA</h1>
                             <p className="text-gray-600 text-sm">Memiliki kompetensi di bidang perbankan, pasar modal, dan corporate governance sebagai hasil
                                 dari pengalamannya selama lebih dari 30 tahun pada sektor perbankan korporasi. Sejak tahun
@@ -61,7 +61,7 @@ export default function TeamsPage() {
                             </ul>
                         </div>
                         <div className="flex flex-col w-full p-6 gap-6">
-                            <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
+                            <Image src="/images/team-3.png" width={200} height={200} alt="Mas Achmad Daniri" />
                             <h1 className="font-bold text-xl">Syahnan Poerba, S.E., MEc</h1>
                             <p className="text-gray-600 text-sm">Memiliki pengalaman sebagai Direktur selama 30 tahun di perusahaan jasa keuangan maupun
                                 non keuangan. Praktisi dalam penerapan sukses Good Governance, Enterprise Risk Management,
@@ -93,7 +93,7 @@ export default function TeamsPage() {
                 <div className="lg:px-12 text-justify">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         <div className="flex flex-col w-full p-6 gap-6">
-                            <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
+                            <Image src="/images/team-4.png" width={200} height={200} alt="Mas Achmad Daniri" />
                             <h1 className="font-bold text-xl">Evelyna Theresa</h1>
                             <p className="text-gray-600 text-sm"> 
                                 Memiliki pengalaman selama 12 tahun sebagai konsultan GCG, GRC, ESG dan CSV
@@ -119,7 +119,7 @@ export default function TeamsPage() {
                             </ul>
                         </div>
                         <div className="flex flex-col w-full p-6 gap-6">
-                            <Image src="/images/avatar.png" width={200} height={200} alt="Mas Achmad Daniri" />
+                            <Image src="/images/team-5.png" width={200} height={200} alt="Mas Achmad Daniri" />
                             <h1 className="font-bold text-xl">Edoh Permatasari</h1>
                             <p className="text-gray-600 text-sm">
                                 Memiliki pengalaman sebagai konsultan GCG dan CSR selama 6 tahun dan

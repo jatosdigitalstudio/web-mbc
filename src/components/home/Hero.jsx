@@ -3,9 +3,9 @@ import Link from "next/link"
 
 export default function Hero() {
     return (
-        <section className="wrapper bg-[url('/images/mbc-heroimg.jpg')] bg-cover mt-[-5rem] " id="beranda" >
-            <div className="flex flex-col h-[100vh] bg-primary/55 lg:bg-primary/5 justify-center items-end">
-                <div className="px-6 text-left mr-10 md:mr-[4em] md:mt-[-4em] md:mt-[-2em]">
+        <section className="wrapper bg-[url('/images/mbc-hero.png')] bg-cover mt-[-5rem] " id="beranda" >
+            <div className="flex flex-col h-[100vh] bg-secondary/55 lg:bg-primary/5 justify-center items-end">
+                <div className="px-6 text-left mr-10 md:mr-[12em] ">
                     <h6 className="mx-auto mt-6 uppercase w-full text-white lg:max-w-3xl">
                         achieve business sustainablity by
                     </h6>
@@ -13,7 +13,7 @@ export default function Hero() {
                         Creating <br/> Shared Value
                     </h1>
                     <button 
-                        className="relative rounded-xs px-6 py-2 overflow-hidden  border border-white text-white transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-secondary before:duration-300 before:ease-out hover:text-white hover:shadow-primary hover:before:h-40 hover:before:w-40 hover:before:opacity-80"> 
+                        className="relative rounded-sm px-6 py-2 overflow-hidden bg-primary md:bg-transparent border border-white text-white transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-primary before:duration-300 before:ease-out hover:text-white hover:shadow-primary hover:before:h-40 hover:before:w-40 hover:before:opacity-80"> 
                         <Link 
                             href={'/'} 
                             class="relative z-10"
