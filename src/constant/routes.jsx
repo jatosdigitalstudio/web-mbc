@@ -1,15 +1,15 @@
 export const MENU = [
     {
       path: '/',
-      name: 'Home',
+      name: 'Beranda',
     },
     {
       path: '/about',
-      name: 'About Us',
+      name: 'Tentang Kami',
     },
     {
       path: '/services',
-      name: 'Services',
+      name: 'Layanan',
       sub : [
         {
           path: '/services/good-corporate-governance',
@@ -51,14 +51,14 @@ export const MENU = [
     },
     {
       path: '/teams',
-      name: 'Our Teams',
+      name: 'Tenaga Ahli',
     },
     {
       path: '/knowledge-center',
-      name: 'Knowledge Center',
+      name: 'Pengetahuan',
     },
     {
       path: '/contact',
-      name: 'Contact Us',
+      name: 'Hubungi Kami',
     },
   ];

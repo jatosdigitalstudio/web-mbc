@@ -26,7 +26,7 @@ export default function Hero() {
                                 }, 500)
                                 }}
                         >
-                            About Us
+                            Tentang Kami
                         </Link>
                     </button>
                 </div>

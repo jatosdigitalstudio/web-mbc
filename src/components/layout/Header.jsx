@@ -16,7 +16,7 @@ export default function Header() {
           {
             link.sub ? (
               <details>
-                <summary className="flex text-black text-[16px] font-[400] py-3 gap-4 rounded-sm cursor-pointer items-center hover:bg-primary hover:text-white hover:rounded-sm">
+                <summary className="flex text-black text-[14px] font-[400] py-3 gap-4 rounded-sm cursor-pointer items-center hover:bg-primary hover:text-white hover:rounded-sm">
                     {link.name}
                 </summary>
                 <ul className="w-80 rounded-sm bg-white backdrop-filter backdrop-blur-lg bg-opacity-95">
@@ -30,7 +30,7 @@ export default function Header() {
                 </ul>
               </details>
             ) : (
-              <Link href={link.path} key={i} className={`${link.path === path ? "bg-primary text-white rounded-sm" : ""} flex rounded-sm text-black text-[16px] font-[400] py-3 gap-4 cursor-pointer items-center hover:bg-primary hover:text-white hover:rounded-sm`}>
+              <Link href={link.path} key={i} className={`${link.path === path ? "bg-primary text-white rounded-sm" : ""} flex rounded-sm text-black text-[14px] font-[400] py-3 gap-4 cursor-pointer items-center hover:bg-primary hover:text-white hover:rounded-sm`}>
                 {link.name}
               </Link>
             )

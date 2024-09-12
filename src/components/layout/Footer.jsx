@@ -24,8 +24,6 @@ export default function Footer() {
                                 <Image src={Logo} width={200}  height={100} alt="Logo INA" />
                             </Link>
                         </div>
-
-
                         <ul className="mt-4 md:mt-6 flex justify-start gap-4">
                             <li>
                                 <Link href="https://www.linkedin.com/in/pt-mitra-bhadra-consulting-60055793/?originalSubdomain=id">
@@ -61,24 +59,29 @@ export default function Footer() {
                             <ul className="mt-4 md:mt-8 space-y-4 text-md">
                                 <li>
                                     <Link className="text-gray-100 transition hover:text-gray-100/75" href="/#about">
-                                        About Us
+                                        Tentang Kami
                                     </Link>
                                 </li>
                                 <li>
                                     <Link className="text-gray-100 transition hover:text-gray-100/75" href="/#service">
-                                        Services
+                                        Layanan
                                     </Link>
                                 </li>
                                 <li>
                                     <Link className="text-gray-100 transition hover:text-gray-100/75" href="/teams">
-                                        Teams
+                                        Tenaga Ahli
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link className="text-gray-100 transition hover:text-gray-100/75" href="/knowledge-center">
+                                        Pusat Pengetahuan
                                     </Link>
                                 </li>
                                 <li>
                                     <Link 
                                     className="text-gray-100 transition hover:text-gray-100/75" 
                                         href="/contact">
-                                        Contact Us
+                                        Hubungi Kami
                                     </Link>
                                 </li>
                             </ul>
@@ -86,7 +89,7 @@ export default function Footer() {
                     </div>
 
                     <div className="text-left">
-                            <p className="text-lg font-medium text-white">More Information</p>
+                            <p className="text-lg font-medium text-white">Informasi Selengkapnya</p>
 
                             <ul className="mt-4 md:mt-8 space-y-4 text-sm">
                                 <li>

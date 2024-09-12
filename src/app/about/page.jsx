@@ -29,10 +29,13 @@ export default function AboutPage() {
                         Head Bank ING Indonesia.</span> 
                         <br/>
                         <br/>
-                        Meskipun berasal dari latar belakang profesi yang berbeda, kami 
-                        memiliki keyakinan yang sama bahwa bisnis hanya dapat berkelanjutan jika dijalankan atas 
-                        dasar good corporate governance (GCG) dan corporate social responsibility (CSR) dalam seluruh
-                        proses bisnis. 
+                        Meskipun berasal dari latar belakang profesi yang berbeda, kami memiliki keyakinan yang sama bahwa 
+                        bisnis hanya dapat berkelanjutan jika dijalankan atas dasar good corporate governance (GCG) dan 
+                        corporate social responsibility (CSR) dalam seluruh proses bisnis.” menjadi ”Dengan beragam latar 
+                        belakang profesi, kami memiliki visi yang sama, yaitu menciptakan proses bisnis yang berkelanjutan. 
+                        Fokus utama kami adalah pada implementasi ESG (Environmental, Social, and Governance) serta GRC 
+                        (Governance, Risk, and Compliance) untuk memastikan keberlanjutan jangka panjang dan tanggung jawab 
+                        di seluruh aspek bisnis
                         <br/>
                         <br/>
                         Di Mitra Bhadra Consulting, pengalaman kami bagikan untuk memberikan strategic
@@ -47,7 +50,7 @@ export default function AboutPage() {
                     <div className="mb-6">
                         <div className="border rounded-md w-20 bg-secondary p-0.5 mb-4" />
                         <h1 className="bg-primary rounded-md px-8 py-4 text-white font-semibold leading-snug !text-4xl lg:max-w-4xl lg:!text-6xl">
-                            Vision
+                            Visi
                         </h1>
                     </div>
                     <div className="px-6 text-justify">
@@ -62,7 +65,7 @@ export default function AboutPage() {
                     <div className="mb-6">
                         <div className="border rounded-md w-20 bg-secondary p-0.5 mb-4" />
                         <h1 className="bg-primary rounded-md px-8 py-4 text-white font-semibold leading-snug !text-4xl lg:max-w-4xl lg:!text-6xl">
-                            Mision
+                            Misi
                         </h1>
                     </div>
                     <div className="px-6 text-justify">
@@ -79,7 +82,7 @@ export default function AboutPage() {
                     <div className="mb-6">
                         <div className="border rounded-md w-20 bg-secondary p-0.5 mb-4" />
                         <h1 className="bg-primary rounded-md px-8 py-4 text-white font-semibold leading-snug !text-4xl lg:max-w-4xl lg:!text-6xl">
-                            Value
+                            Nilai
                         </h1>
                     </div>
                     <div className="px-6 text-justify">
