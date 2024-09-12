@@ -19,10 +19,12 @@ export default function About() {
                         Head Bank ING Indonesia.</span> 
                         <br/>
                         <br/>
-                        Meskipun berasal dari latar belakang profesi yang berbeda, kami 
-                        memiliki keyakinan yang sama bahwa bisnis hanya dapat berkelanjutan jika dijalankan atas 
-                        dasar good corporate governance (GCG) dan corporate social responsibility (CSR) dalam seluruh
-                        proses bisnis. 
+                        Meskipun berasal dari latar belakang profesi yang berbeda, kami memiliki keyakinan yang sama bahwa bisnis 
+                        hanya dapat berkelanjutan jika dijalankan atas dasar good corporate governance (GCG) dan corporate social 
+                        responsibility (CSR) dalam seluruh proses bisnis.” menjadi ”Dengan beragam latar belakang profesi, kami 
+                        memiliki visi yang sama, yaitu menciptakan proses bisnis yang berkelanjutan. Fokus utama kami adalah pada 
+                        implementasi ESG (Environmental, Social, and Governance) serta GRC (Governance, Risk, and Compliance) untuk 
+                        memastikan keberlanjutan jangka panjang dan tanggung jawab di seluruh aspek bisnis
                         <br/>
                         <br/>
                         Di Mitra Bhadra Consulting, pengalaman kami bagikan untuk memberikan strategic

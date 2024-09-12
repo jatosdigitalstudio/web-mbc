@@ -3,6 +3,7 @@ import { useState,useEffect } from "react"
 import Loading from "@/app/loading";
 import BSPage from "@/components/services/BSPage";
 import ServiceCTA from "@/components/serviceCTA";
+import Head from "@/app/head";
 
 export default function BS() {
     const [loading,setLoading] = useState(true)
@@ -16,8 +17,9 @@ export default function BS() {
     if (loading) return <Loading />
     return (
         <>
-       <BSPage />
-       <ServiceCTA/>
-       </>
+        <Head title={"Business Strategy | MBC"} />
+        <BSPage />
+        <ServiceCTA/>
+        </>
     )
 }

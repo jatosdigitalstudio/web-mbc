@@ -96,12 +96,13 @@ export default function TeamsPage() {
                             <Image src="/images/team-4.png" width={200} height={200} alt="Mas Achmad Daniri" />
                             <h1 className="font-bold text-xl">Evelyna Theresa</h1>
                             <p className="text-gray-600 text-sm"> 
-                                Memiliki pengalaman selama 12 tahun sebagai konsultan GCG, GRC, ESG dan CSV
-                                yang berpengalaman dalam membangun infrastruktur GCG, asesmen GCG,
-                                pedoman Tata Kelola, Subsidiary Governance, Laporan Tahunan dan penyusunan
-                                kebijakan GCG, Sustainability Report dan implementasi Environment, Social and
-                                Governance (ESG) di beberapa BUMN, lembaga milik publik dan perusahaan
-                                swasta lainnya.
+                                Memiliki pengalaman selama dua belas tahun sebagai konsultan GRC dengan Sertifikasi 
+                                Governance Risk and Compliance Profesional dan Certified Risk Management Professional, 
+                                aktif menjadi narasumber dan moderator dalam berbagai kesempatan, membangun infrastruktur 
+                                GCG, memiliki pengetahuan mengenai OECD principles, Asean Corporate Governance Scorecards, 
+                                POJK, mereview Annual Report dan Sustainability report, menyusun Roadmap GRC BUMN dan BUMD, 
+                                melakukan asistensi implementasi dan penyusunan infrastruktur dan Roadmap Environment, Social 
+                                and Governance (ESG) di BUMN.
                             </p>
                             <ul className="list-disc text-primary px-4 text-sm">
                                 <li><span className="text-gray-700">BPJS Ketenagakerjaan (2015)</span></li>
@@ -122,11 +123,14 @@ export default function TeamsPage() {
                             <Image src="/images/team-5.png" width={200} height={200} alt="Mas Achmad Daniri" />
                             <h1 className="font-bold text-xl">Edoh Permatasari</h1>
                             <p className="text-gray-600 text-sm">
-                                Memiliki pengalaman sebagai konsultan GCG dan CSR selama 6 tahun dan
-                                menyusun Laporan Keberlanjutan, Stakeholder Mapping berdasarkan AA 1000
-                                Standar on Accountability. Edoh memiliki latar belakang pendidikan Magister
-                                Manajemen Keberlanjutan (MMCSR) di salah satu universitas swasta di Jakarta.
-                                Edoh memiliki sertifikasi Lead Auditor ISO 37001
+                                Memiliki pengalaman sebagai konsultan GRC dan Sustainability selama 10 (sepuluh) tahun 
+                                yang berpengalaman dalam membangun infrastruktur GCG di beberapa BUMN perusahaan swasta 
+                                serta lembaga  publik, mereview dan menyusun pedoman Tata Kelola, Laporan Tahunan, Laporan 
+                                Keberlanjutan serta telah mengikuti pelatihan AA1000 Stakeholder Engagement Series. Selain 
+                                itu pernah mendampingi perusahaan dalam menyusun infrastruktur implementasi Environment, 
+                                Social and Governance (ESG). Memiliki latar belakang pendidikan Magister Management of 
+                                Sustainability di Universitas Trisakti, Sertifikasi Governance Risk and Compliance 
+                                Profesional dan Sertifikasi Lead Auditor ISO 37001 Sistem Manajemen Anti Penyuapan.
                             </p>
                             <ul className="list-disc text-primary px-4 text-sm">
                                 <li><span className="text-gray-700">BPJS Ketenagakerjaan (2015)</span></li>

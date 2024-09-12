@@ -3,7 +3,7 @@ import { useState,useEffect } from "react"
 import Loading from "@/app/loading";
 import SMAPPage from "@/components/services/SMAPPage";
 import ServiceCTA from "@/components/serviceCTA";
-
+import Head from "@/app/head";
 export default function SMAP() {
     const [loading,setLoading] = useState(true)
     
@@ -16,8 +16,9 @@ export default function SMAP() {
     if (loading) return <Loading />
     return (
         <>
-       <SMAPPage />
-       <ServiceCTA />
-       </>
+            <Head title={"Sistem Manajemen Anti Suap | MBC"} />
+            <SMAPPage />
+            <ServiceCTA />
+        </>
     )
 }

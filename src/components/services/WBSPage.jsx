@@ -40,10 +40,6 @@ export default function WBSPage() {
                         </div>
                         <div className="flex flex-row gap-4">
                             <BsCheckCircle size={30} className="text-secondary shrink-0"/>
-                            <p className="text-lg">Penyusunan Annual Report (Berbasis ARA)</p>
-                        </div>
-                        <div className="flex flex-row gap-4">
-                            <BsCheckCircle size={30} className="text-secondary shrink-0"/>
                             <p className="text-lg">Peluncuran Program WBS</p>
                         </div>
                         <div className="flex flex-row gap-4">
@@ -57,12 +53,6 @@ export default function WBSPage() {
                         <div className="flex flex-row gap-4">
                             <BsCheckCircle size={30} className="text-secondary shrink-0"/>
                             <p className="text-lg">Monitoring dan Review</p>
-                        </div>
-                        <div className="flex mt-4">
-                            <p className="text-md text-secondary">
-                            MBC mengembangkan perangkat “verity” yang merupakan sistem pengaduan Pelanggaran yang
-                            terpercaya, mengadopsi pedoman WBS yang diterbitkan oleh KNKG
-                            </p>
                         </div>
                     </div>
                 </div>

@@ -25,11 +25,11 @@ export const MENU = [
         },
         {
           path: '/services/sistem-manajemen-anti-penyuapan',
-          name: 'Sistem Manajemen Anti Penyuapan (SMAP)',
+          name: 'Sistem Manajemen Anti Penyuapan',
         },
         {
           path: '/services/integrated-governance-risk-and-compliance',
-          name: 'Integrated Governance, Rick & Compliance',
+          name: 'Governance, Risk & Compliance',
         },
         {
           path: '/services/business-strategy',
@@ -41,16 +41,24 @@ export const MENU = [
         },
         {
           path: '/services/enviroment-social-governance',
-          name: 'Environment, Social, Governance (ESG)',
+          name: 'Enviroment, Social, Governance (ESG)',
+        },
+        {
+          path: '/services/directorship-program',
+          name: 'Directorship Program',
         },
       ]
     },
     {
-        path: '/teams',
-        name: 'Our Teams',
-      },
-      {
-        path: '/contact',
-        name: 'Contact Us',
-      },
+      path: '/teams',
+      name: 'Our Teams',
+    },
+    {
+      path: '/knowledge-center',
+      name: 'Knowledge Center',
+    },
+    {
+      path: '/contact',
+      name: 'Contact Us',
+    },
   ];

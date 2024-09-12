@@ -3,6 +3,7 @@ import { useState,useEffect } from "react"
 import Loading from "@/app/loading";
 import CMPage from "@/components/services/CMPage";
 import ServiceCTA from "@/components/serviceCTA";
+import Head from "@/app/head";
 
 export default function CM() {
     const [loading,setLoading] = useState(true)
@@ -16,8 +17,9 @@ export default function CM() {
     if (loading) return <Loading />
     return (
         <>
-       <CMPage />
-       <ServiceCTA/>
-       </>
+        <Head title={"Capital Market | MBC"} />
+        <CMPage />
+        <ServiceCTA/>
+        </>
     )
 }

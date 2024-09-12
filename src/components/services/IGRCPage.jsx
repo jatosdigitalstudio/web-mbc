@@ -25,8 +25,8 @@ export default function IGRCPage() {
                             risiko bisnis.
                             <br/>
                             <br/>
-                            Solusi GRC memberikan proses yang jelas dan tidak ambigu untuk Governance, Risk and Compliance, memberikan
-                            satu titik acuan untuk organisasi dan menghilangkan duplikasi dan pekerjaan yang berlebihan.
+                            Solusi GRC memberikan proses yang jelas dan tidak ambigu untuk Governance, Risk Management and Compliance, 
+                            memberikan satu titik acuan untuk organisasi dan menghilangkan duplikasi dan pekerjaan yang berlebihan
                         </p>
                     </div>
                     <div className="flex flex-col gap-6">

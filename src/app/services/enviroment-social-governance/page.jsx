@@ -3,6 +3,7 @@ import { useState,useEffect } from "react"
 import Loading from "@/app/loading";
 import ESGPage from "@/components/services/ESGPage";
 import ServiceCTA from "@/components/serviceCTA";
+import Head from "@/app/head";
 
 export default function GCG() {
     const [loading,setLoading] = useState(true)
@@ -16,8 +17,9 @@ export default function GCG() {
     if (loading) return <Loading />
     return (
         <>
-       <ESGPage />
-       <ServiceCTA/>
-       </>
+        <Head title={"Enviroment Social Governance | MBC"} />
+        <ESGPage />
+        <ServiceCTA/>
+        </>
     )
 }
