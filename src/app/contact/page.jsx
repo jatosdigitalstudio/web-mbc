@@ -72,15 +72,13 @@ export default function ContactPage() {
                         <div className="flex flex-row gap-4">
                             <HiPhone  size={28} className="text-primary"/>
                             <div className="flex flex-col">
-                                <p className="text-md">021 2753 1532</p>
-                                <p className="text-md">0878 8015 8570</p>
-                                <p className="text-md">0878 2325 8269</p>
+                                <p className="text-md">0821 1077 8860</p>
                             </div>
                         </div>
                         <div className="flex flex-row gap-4">
                             <HiEnvelope size={28} className="text-primary"/>
                             <h4 className="text-md">
-                                general@mbconsulting.id
+                                general@mitrabhadraconsulting.com
                             </h4>
                         </div>
                     </div>
