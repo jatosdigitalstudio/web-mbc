@@ -6,10 +6,10 @@ export default function Hero() {
         <section className="wrapper bg-[url('/images/mbc-hero-mobile.png')] md:bg-[url('/images/mbc-hero.png')] bg-no-repeat bg-cover mt-[-5rem] " id="beranda" >
             <div className="flex flex-col h-[100vh] lg:bg-primary/5 justify-center items-end">
                 <div className="px-6 text-left mt-[-16rem] md:mt-0 mr-10 md:mr-[12em] ">
-                    <h6 className="mx-auto mt-6 uppercase w-full text-white !text-xl lg:max-w-3xl">
+                    <h6 className="mx-auto mt-6 uppercase w-full text-white !text-lg lg:max-w-3xl">
                         achieve business sustainablity by
                     </h6>
-                    <h1 className="text-white font-extrabold mt-2 mb-6 w-full !leading-snug !text-3xl lg:!text-[3em]">
+                    <h1 className="text-white font-extrabold mt-2 mb-6 w-full !leading-snug !text-4xl lg:!text-[3em]">
                         Creating <br/> Shared Value
                     </h1>
                     <button 
