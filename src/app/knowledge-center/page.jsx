@@ -25,7 +25,7 @@ export default function KCPage() {
                         </h1>
                     </div>
                 </div>
-                <div className="grid grid-cols-3 gap-12 mt-6">
+                <div className="grid grid-rows-3 lg:grid-cols-3 gap-12 mt-6">
                     {
                         BLOG.map((cx,idx) => {
                             return (
