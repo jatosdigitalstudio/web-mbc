@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <section className="wrapper bg-[url('/images/mbc-hero-mobile.png')] md:bg-[url('/images/mbc-hero.png')] bg-no-repeat bg-cover mt-[-5rem] " id="beranda" >
             <div className="flex flex-col h-[100vh] lg:bg-primary/5 justify-center items-end">
-                <div className="px-6 text-left mt-[-20rem] md:mt-0 mr-10 md:mr-[12em] ">
+                <div className="px-6 text-left mt-[-16rem] md:mt-0 mr-10 md:mr-[12em] ">
                     <h6 className="mx-auto mt-6 uppercase w-full text-white !text-xl lg:max-w-3xl">
                         achieve business sustainablity by
                     </h6>
