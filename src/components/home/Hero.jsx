@@ -3,13 +3,13 @@ import Link from "next/link"
 
 export default function Hero() {
     return (
-        <section className="wrapper bg-[url('/images/mbc-hero-mobile.png')] md:bg-[url('/images/mbc-hero.png')] bg-contain bg-no-repeat lg:bg-cover mt-[-5rem] " id="beranda" >
-            <div className="flex flex-col h-[100vh]  lg:bg-primary/5 justify-center items-end">
+        <section className="wrapper bg-[url('/images/mbc-hero-mobile.png')] md:bg-[url('/images/mbc-hero.png')] bg-no-repeat bg-cover mt-[-5rem] " id="beranda" >
+            <div className="flex flex-col h-[100vh] lg:bg-primary/5 justify-center items-end">
                 <div className="px-6 text-left mt-[-20rem] md:mt-0 mr-10 md:mr-[12em] ">
-                    <h6 className="mx-auto mt-6 uppercase w-full text-white lg:max-w-3xl">
+                    <h6 className="mx-auto mt-6 uppercase w-full text-white !text-xl lg:max-w-3xl">
                         achieve business sustainablity by
                     </h6>
-                    <h1 className="text-white font-extrabold mt-2 mb-6 w-full !leading-snug !text-5xl lg:!text-[3em]">
+                    <h1 className="text-white font-extrabold mt-2 mb-6 w-full !leading-snug !text-3xl lg:!text-[3em]">
                         Creating <br/> Shared Value
                     </h1>
                     <button 
