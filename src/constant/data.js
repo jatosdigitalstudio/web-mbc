@@ -47,3 +47,21 @@ export const TEAMS = [
         ]
     },
 ]
+
+export const BLOG = [
+    {
+        author: "Edoh Permatasari",
+        title : "Bribery No, GCG Yes!",
+        date : "2020-03-07T08:18:39.000Z",
+    },
+    {
+        author: "Edoh Permatasari",
+        title : "Mengapa Manajemen GRC Menjadi Semakin Penting Di Seluruh Dunia?",
+        date : "2020-03-07T08:18:39.000Z",
+    },
+    {
+        author: "Edoh Permatasari",
+        title : "Environment, Sosial, Governance (ESG) is it a Must?",
+        date : "2021-11-09T08:18:39.000Z",
+    },
+]

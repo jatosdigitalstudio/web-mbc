@@ -40,7 +40,7 @@ export default function Header() {
   }
 
   return (
-      <nav className="navbar sticky bg-white backdrop-filter backdrop-blur-lg bg-opacity-45 px-4 h-[80px] lg:px-20 3xl:px-0 z-30">
+      <nav className="navbar sticky bg-white md:backdrop-filter md:backdrop-blur-lg md:bg-opacity-45 px-4 h-[80px] lg:px-20 3xl:px-0 z-30">
         <div className="navbar-start">
             <Link href='/' className='flex justify-center items-center font-bold text-xl tracking-[-6px] text-black tracking-tighter'>
                 <Image src={Logo} width={150} height={100} alt="Logo MBC" />

@@ -3,9 +3,9 @@ import Link from "next/link"
 
 export default function Hero() {
     return (
-        <section className="wrapper bg-[url('/images/mbc-hero.png')] bg-cover mt-[-5rem] " id="beranda" >
-            <div className="flex flex-col h-[100vh] bg-secondary/55 lg:bg-primary/5 justify-center items-end">
-                <div className="px-6 text-left mr-10 md:mr-[12em] ">
+        <section className="wrapper bg-[url('/images/mbc-hero-mobile.png')] md:bg-[url('/images/mbc-hero.png')] bg-contain bg-no-repeat lg:bg-cover mt-[-5rem] " id="beranda" >
+            <div className="flex flex-col h-[100vh]  lg:bg-primary/5 justify-center items-end">
+                <div className="px-6 text-left mt-[-20rem] md:mt-0 mr-10 md:mr-[12em] ">
                     <h6 className="mx-auto mt-6 uppercase w-full text-white lg:max-w-3xl">
                         achieve business sustainablity by
                     </h6>

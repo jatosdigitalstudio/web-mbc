@@ -2,6 +2,8 @@
 import Image from "next/image"
 import { useState,useEffect } from "react"
 import Loading from "../loading";
+import {BLOG} from "@/constant/data"
+import { HiOutlineUser, HiOutlineClock  } from "react-icons/hi";
 
 export default function KCPage() {
     const [loading,setLoading] = useState(true)
@@ -22,6 +24,25 @@ export default function KCPage() {
                             Pusat Pengetahuan
                         </h1>
                     </div>
+                </div>
+                <div className="grid grid-cols-3 gap-12 mt-6">
+                    {
+                        BLOG.map((cx,idx) => {
+                            return (
+                            <div key={idx} className="flex flex-col gap-2 w-80 h-50 bg-primary text-white px-6 py-8 w-30 rounded-md">
+                                <h1 className="text-white font-reguler text-md mb-auto">{cx.title}</h1>
+                                <div className="flex flex-row items-center gap-2">
+                                    <HiOutlineUser size={16} />
+                                    <p className="text-xs">{cx.author}</p>
+                                </div>
+                                <div className="flex flex-row items-center gap-2">
+                                    <HiOutlineClock size={16} />
+                                    <p className="text-xs">Selasa, 7 Maret 2020</p>
+                                </div>
+                            </div>
+                            )
+                        })
+                    }
                 </div>
                 <div className="h-[30vh]"></div>
             </div>
